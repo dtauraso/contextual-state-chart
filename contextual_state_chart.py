@@ -157,7 +157,7 @@ def getNextStates(tracker, continuing_next_states, indents, graph):
 
 
 		continuing_next_states = [list(a) for a in graph['node_graph3'][state1]['next'][case1].items()]
-		print(continuing_next_states)
+		# print(continuing_next_states)
 
 	return [tracker, continuing_next_states, indents]
 
